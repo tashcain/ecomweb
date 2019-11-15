@@ -107,14 +107,14 @@ app.post('/send', (req, res) => {
 //   });
 // }
 
-app.use(express.static(path.join(__dirname, 'lmatui/build')));
+app.use(express.static(path.join(__dirname, 'newlmatui/build')));
 
 app.use((req, res) => {
-  res.sendFile(path.join(__dirname, 'lmatui', 'build', 'index.html'))
+  res.sendFile(path.join(__dirname, 'newlmatui', 'build', 'index.html'))
 })
 if (process.env.NODE_ENV === 'production') {
   app.use((req, res) => {
-    res.sendFile(path.join(__dirname, 'lmatui', 'build', 'index.html'))
+    res.sendFile(path.join(__dirname, 'newlmatui', 'build', 'index.html'))
   })
 }
 
