@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc3cd4e0.chunk.css",
+    "main.js": "/static/js/main.04f6cd9c.chunk.js",
+    "main.js.map": "/static/js/main.04f6cd9c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc22ba9c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc22ba9c.js.map",
+    "static/css/2.764c1c17.chunk.css": "/static/css/2.764c1c17.chunk.css",
+    "static/js/2.677422aa.chunk.js": "/static/js/2.677422aa.chunk.js",
+    "static/js/2.677422aa.chunk.js.map": "/static/js/2.677422aa.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ce55127ac6cb9b8bc80bd48fca4d2caa.js": "/precache-manifest.ce55127ac6cb9b8bc80bd48fca4d2caa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.764c1c17.chunk.css.map": "/static/css/2.764c1c17.chunk.css.map",
+    "static/css/main.bc3cd4e0.chunk.css.map": "/static/css/main.bc3cd4e0.chunk.css.map",
+    "static/media/BlueTea.jpg": "/static/media/BlueTea.b165489f.jpg",
+    "static/media/BlueTea1.jpg": "/static/media/BlueTea1.b165489f.jpg",
+    "static/media/PremiumTea.jpg": "/static/media/PremiumTea.2f0ab3a8.jpg",
+    "static/media/TulsiGreenTea1.jpg": "/static/media/TulsiGreenTea1.1fc2bee0.jpg",
+    "static/media/homeland.css": "/static/media/teabg4.ce1d835e.jpg",
+    "static/media/carimg1.JPG": "/static/media/carimg1.b9e6f77b.JPG",
+    "static/media/carimg2.JPG": "/static/media/carimg2.939d5227.JPG",
+    "static/media/carimg3.JPG": "/static/media/carimg3.fe9cc0b0.JPG",
+    "static/media/footer.css": "/static/media/footer.c4c0d567.JPG",
+    "static/media/girl.jpg": "/static/media/girl.8faa0c9d.jpg",
+    "static/media/buypro.css": "/static/media/leavesbg02.b2b75581.JPG",
+    "static/media/ptinfo.jpg": "/static/media/ptinfo.7aeea290.jpg",
+    "static/media/tgtinfo.jpg": "/static/media/tgtinfo.945ff748.jpg",
+    "static/media/wholeleafGreentea.jpg": "/static/media/wholeleafGreentea.b3c7e708.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc22ba9c.js",
+    "static/css/2.764c1c17.chunk.css",
+    "static/js/2.677422aa.chunk.js",
+    "static/css/main.bc3cd4e0.chunk.css",
+    "static/js/main.04f6cd9c.chunk.js"
+  ]
+}
