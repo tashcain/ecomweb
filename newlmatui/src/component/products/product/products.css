@@ -1,0 +1,73 @@
+@import '~antd/dist/antd.css';
+@media(min-width:700px){
+    .precont{
+        margin-top: 4%;
+        background: url('../../../images/leavesbg02.JPG');
+        background-size: cover;
+        padding-left: 6%;
+        
+    }
+    .ant-card{
+        width: 300px !important;
+        height: 445px;
+        border-radius: 41px;
+        margin-top: 5%;
+         }
+    .ant-card-cover img{
+        height: 330px;
+    border-radius: 10px;
+    }    
+    
+    /* .ant-btn{
+        margin-top:7%;
+    } */
+    .ant-btn-primary{
+        background-color: #964b00 !important;
+        border-color: #964b00 !important;
+    }
+    .cardsize:hover {
+        height:400px;
+        width: 300px; 
+        border-radius: 20px;
+      cursor: pointer;
+      -webkit-transition: height 0.2s ease-out;
+      -moz-transition: height 0.2s ease-out;
+      -o-transition: height 0.2s ease-out;
+      transition: height 0.2s ease-out;
+    }
+
+    
+    
+}
+
+@media(max-width:700px){
+    .precont{
+        margin-top: 5%;
+        background: url('../../../images/leavesbg02.JPG');
+        background-size: cover;
+        padding-top: 12%;
+    }
+    .ant-card{
+        width: 100% !important;
+        height: 673px;
+        border-radius: 41px;
+        margin-top: 22%;
+         }
+    .ant-card-cover img{
+        height: 524px;
+        border-radius: 26px
+    }  
+    
+    .ant-card-meta-title{
+        font-size: 33px !important;
+    }
+    
+    /* .ant-btn{
+        margin-top:7%;
+    } */
+    .ant-btn-primary{
+        background-color: #964b00 !important;
+        border-color: #964b00 !important;
+    }
+}
+

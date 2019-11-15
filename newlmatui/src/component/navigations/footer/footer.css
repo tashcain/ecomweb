@@ -1,0 +1,42 @@
+.footer h4{
+    color: white
+}
+
+.footer p{
+    color: white
+}
+.footer{
+    background: url('../../../images/footer.JPG');
+    background-size: cover ;
+}
+
+.anticon{
+    padding-right: 6%;
+}
+
+
+@media(max-width: 700px){
+    .footer{
+        text-align: center;
+    }
+
+    .footer h4{
+        text-align: center !important;
+        font-size: 36px !important;
+    }
+    
+    .footer p{
+        text-align: center !important;
+        font-size: 20px
+    }
+
+    .about{
+        padding-top: 12%;
+    }
+    .follow{
+        padding-top:9%;   
+    }
+    .news{
+        padding-top: 12%;
+    }
+}

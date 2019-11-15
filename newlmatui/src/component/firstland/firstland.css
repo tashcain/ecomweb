@@ -1,0 +1,13 @@
+@media(max-width:700px){
+    .landlogo{
+        height: 152px;
+        font-size: 50px;
+        margin-top: 36%;
+    }
+
+    .landlogo p{
+        font-size: 31px;
+        color: aliceblue;
+        text-align: left;    }
+}
+

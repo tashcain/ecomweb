@@ -1,0 +1,36 @@
+.firstland{
+    background-size: cover;
+    width: 1700px;
+    height: 800px;
+}
+@media(max-width:700px){
+    .firstland{
+        background: url('../../images/assamtea.JPG');
+        background-size: cover;
+     }
+     .conte{
+         margin-top: 2%;
+     }
+}
+
+@media(min-width: 700px){
+    .firstland{
+        background: url('../../images/teabg4.jpg');
+        background-size: cover;
+
+    }
+}
+.carr {
+    height: 639px;
+    padding-top: 200px;
+    background: url('../../images/leavesbg02.JPG');
+    background-size: cover;
+}
+
+.landcard{
+    height: auto;
+    padding-top: 200px;
+    background: url('../../images/leavesbg.JPG');
+    background-size: cover;
+
+}

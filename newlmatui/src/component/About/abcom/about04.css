@@ -1,0 +1,25 @@
+@media(max-width:700px){
+    .ownr{
+        margin-top: 17%;
+        text-align: left;
+    }
+    .col-sm img{
+        height:100%;
+        width: 100%;
+    }
+}
+
+@media(min-width:700px){
+    .ownr{
+        margin-top: 7%;
+        text-align: left;
+    }
+    .ownrimg img{
+        height: 79%;
+        width: 76%;
+        margin-left: 17%;
+    }
+    .ownrcon{
+        font-size: 29px;
+    }
+}

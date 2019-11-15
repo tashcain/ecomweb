@@ -1,0 +1,31 @@
+.card{
+    margin-top: 10%;
+}
+
+@media(max-width:700px){
+    .card{
+        height: auto;
+        font-size: 20px;
+        background: #964b00 !important;
+        color: white;
+    }
+    .card span{
+        font-size: 58px;
+    }
+}
+
+@media(min-width: 700px){
+    .card{
+        margin: 1%;
+        height: auto;
+        font-size: 20px;
+        background: #964b00 !important;
+        color: white;
+    }
+    .cardcom{
+        margin-top: 8%;
+    }
+    .card span{
+        font-size: 58px;
+    }
+}
