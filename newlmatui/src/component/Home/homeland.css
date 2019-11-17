@@ -3,6 +3,11 @@
     width: 1700px;
     height: 800px;
 }
+.lbg{
+    background: url('../../images/leavesbg.JPG');
+    background-size: cover;
+
+}
 @media(max-width:700px){
     .firstland{
         background: url('../../images/assamtea.JPG');
@@ -10,6 +15,10 @@
      }
      .conte{
          margin-top: 2%;
+         background: wheat;
+     }
+     .cardcom{
+         padding: 10%;
      }
 }
 
@@ -23,14 +32,14 @@
 .carr {
     height: 639px;
     padding-top: 200px;
-    background: url('../../images/leavesbg02.JPG');
-    background-size: cover;
+    /* background: url('../../images/leavesbg02.JPG');
+    background-size: cover; */
 }
 
 .landcard{
     height: auto;
     padding-top: 200px;
-    background: url('../../images/leavesbg.JPG');
-    background-size: cover;
+    /* background: url('../../images/leavesbg.JPG');
+    background-size: cover; */
 
 }

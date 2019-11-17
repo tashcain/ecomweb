@@ -8,6 +8,9 @@ export default class Footer extends Component {
             <div>
             <div class="container footer">
         <div class="row">
+        <div class="col-sm news">
+            <h4>LMAssamTea</h4>
+            </div>
             <div class="col-sm about">
             <h4>About Us</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, magnam voluptatibus. Id tempora dolores quas nemo ratione voluptates! Amet, asperiores.</p>                
@@ -18,11 +21,7 @@ export default class Footer extends Component {
             <Icon type="instagram" theme="filled" />
             <Icon type="twitter-circle" theme="filled" /></p>
             
-            </div>
-            <div class="col-sm news">
-            <h4>Newsletter</h4>
-            </div>
-            
+            </div>            
         </div>
         </div>
             </div>

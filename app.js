@@ -19,9 +19,9 @@ app.use(bodyParser.json())
 //static folder
 // app.use('/public', express.static(path.join(__dirname, 'public')));
 
-app.get('/', (req, res) => {
-    res.send("hello");
-})
+// app.get('/', (req, res) => {
+//     res.send("hello");
+// })
 
 app.post('/send', (req, res) => {
     const output = `
@@ -73,39 +73,6 @@ app.post('/send', (req, res) => {
   });
   });
 
-// <<<<<<< HEAD
-//   app.use(express.static(path.join(__dirname, 'lmatui/build')));
-
-//   app.use((req, res) => {
-//     res.sendFile(path.join(__dirname, 'lmatui', 'build', 'index.html'))
-//   })
-//   if (process.env.NODE_ENV === 'production') {
-//     // app.use((req, res) => {
-//     //   res.sendFile(path.join(__dirname, 'lmatui', 'build', 'index.html'))
-//     // })
-//     app.use(express.static('lmatui/build'));
-      
-//     app.get('*', (req, res) => {
-//       res.sendFile(path.join(__dirname, 'lmatui', 'build', 'index.html'));
-//     });
-//   }
-// =======
-
-// app.use(express.static(path.join(__dirname, 'lmatui/build')));
-
-// app.use((req, res) => {
-//   res.sendFile(path.join(__dirname, 'lmatui', 'build', 'index.html'))
-// })
-// if (process.env.NODE_ENV === 'production') {
-//   // app.use((req, res) => {
-//   //   res.sendFile(path.join(__dirname, 'lmatui', 'build', 'index.html'))
-//   // })
-//   app.use(express.static('lmatui/build'));
-    
-//   app.get('*', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'lmatui', 'build', 'index.html'));
-//   });
-// }
 
 app.use(express.static(path.join(__dirname, 'newlmatui/build')));
 

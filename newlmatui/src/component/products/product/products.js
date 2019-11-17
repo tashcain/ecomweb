@@ -34,13 +34,13 @@ export default class Products extends Component {
         return (
             <div>
                 <div className="precont">
-                <div class="container">
-            <div class="row">
-                <div class="col-sm justify-content-center">
-                <Card
+                <div className="container">
+            <div className="row">
+                <div className="col-sm justify-content-center  ">
+                <Card className="first-card"
                             hoverable
                             style={{ width: 240 }}
-                            cover={<img className="cardsize" onMouseOver={this.onHover} alt="example" src={Img02} />}
+                            cover={<img className="cardsize img-fluid" onMouseOver={this.onHover} alt="example" src={Img02} />}
                         >
                             
                             <Link to="/prod/01"><u><Meta title="Tulsi Green Tea"  /></u></Link> 
@@ -51,7 +51,7 @@ export default class Products extends Component {
                 <Card
                             hoverable
                             style={{ width: 240 }}
-                            cover={<img className="cardsize" onMouseOver={this.onHover} alt="example" src={Img01} />}
+                            cover={<img className="cardsize img-fluid" onMouseOver={this.onHover} alt="example" src={Img01} />}
                         >
                         <Link to="/prod/02"><u><Meta title="Blue Tea"/></u></Link> 
                          <br/><Link to="/buyprod/02"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
@@ -61,7 +61,7 @@ export default class Products extends Component {
                 <Card 
                             hoverable
                             style={{ width: 240 }}
-                            cover={<img className="cardsize" onMouseOver={this.onHover} alt="example" src={Img04} />}
+                            cover={<img className="cardsize img-fluid" onMouseOver={this.onHover} alt="example" src={Img04} />}
                         >
                         <Link to="/prod/03"><u><Meta title="Premium Tea"  /></u></Link> 
                         <br/><Link to="/buyprod/03"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
@@ -71,7 +71,7 @@ export default class Products extends Component {
                 <Card
                             hoverable
                             style={{ width: 240 }}
-                            cover={<img className="cardsize" onMouseOver={this.onHover} alt="example" src={Img03} />}
+                            cover={<img className="cardsize img-fluid" onMouseOver={this.onHover} alt="example" src={Img03} />}
                         >
                         <Link to="/prod/04"><u><Meta title="Green Tea"  /></u></Link> 
                          <br/><Link to="buyprod/04"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>

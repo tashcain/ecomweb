@@ -15,7 +15,8 @@ export default class Homeland extends Component {
                         <Firstland/>
                     </div>
                 </div>
-            <div className="container carr ">
+                <div className="lbg">
+                <div className="container carr ">
                 <div className="row">
                         <div className="col-sm">
                         <Car/>
@@ -61,7 +62,9 @@ export default class Homeland extends Component {
             </div>
                 </div>  
             </div>
-        </div> 
+ 
+                    </div>   
+                   </div> 
 
             
         )

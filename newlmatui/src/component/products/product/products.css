@@ -9,14 +9,18 @@
     }
     .ant-card{
         width: 300px !important;
-        height: 445px;
+        height: auto;
         border-radius: 41px;
         margin-top: 5%;
          }
     .ant-card-cover img{
-        height: 330px;
+        height: 330px !important;
     border-radius: 10px;
     }    
+
+    .ant-card-meta-title{
+        font-size: 33px !important;
+    }
     
     /* .ant-btn{
         margin-top:7%;
@@ -26,7 +30,7 @@
         border-color: #964b00 !important;
     }
     .cardsize:hover {
-        height:400px;
+        height:400px !important;
         width: 300px; 
         border-radius: 20px;
       cursor: pointer;
@@ -47,17 +51,27 @@
         background-size: cover;
         padding-top: 12%;
     }
+    .first-card{
+        margin-top: 0 !important;
+    }
+
     .ant-card{
         width: 100% !important;
-        height: 673px;
+        height: 555px;
         border-radius: 41px;
         margin-top: 22%;
          }
+
     .ant-card-cover img{
-        height: 524px;
-        border-radius: 26px
+        height: 436px !important;
+        border-radius: 26px;
+        padding: 2% !important;
+       
     }  
     
+    .ant-card-body{
+        padding: 0 !important;
+    }
     .ant-card-meta-title{
         font-size: 33px !important;
     }

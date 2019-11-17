@@ -6,7 +6,7 @@
     color: white
 }
 .footer{
-    background: url('../../../images/footer.JPG');
+    background: green;
     background-size: cover ;
 }
 
@@ -40,3 +40,10 @@
         padding-top: 12%;
     }
 }
+
+/* @media(min-width:700px){
+    .news{
+        text-align: left;
+        padding-left: 2% !important;
+    }
+} */
