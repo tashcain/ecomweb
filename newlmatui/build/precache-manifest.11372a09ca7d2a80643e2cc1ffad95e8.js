@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89cb539e1edc22de9d7cdeaf6e8d6c03",
+    "revision": "e29fd6fffa04c494cd228d2fc3e033a5",
     "url": "/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.764c1c17.chunk.css"
   },
   {
-    "revision": "4deba918c731c491e061",
-    "url": "/static/css/main.bc3cd4e0.chunk.css"
+    "revision": "348ae4742e127afa6746",
+    "url": "/static/css/main.ab3e1c6b.chunk.css"
   },
   {
     "revision": "fd03d56886179bdff317",
     "url": "/static/js/2.677422aa.chunk.js"
   },
   {
-    "revision": "4deba918c731c491e061",
-    "url": "/static/js/main.04f6cd9c.chunk.js"
+    "revision": "348ae4742e127afa6746",
+    "url": "/static/js/main.fea1e134.chunk.js"
   },
   {
     "revision": "4cf512219cf323a8a5ad",
@@ -40,10 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/TulsiGreenTea1.1fc2bee0.jpg"
   },
   {
-    "revision": "65102ef59dfd0959f13cbbab1af26aca",
-    "url": "/static/media/assamtea.65102ef5.JPG"
-  },
-  {
     "revision": "b9e6f77bd8320ad0945f4ddd1662bb7f",
     "url": "/static/media/carimg1.b9e6f77b.JPG"
   },
@@ -54,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe9cc0b0ca0db612768ae45f116d68e2",
     "url": "/static/media/carimg3.fe9cc0b0.JPG"
-  },
-  {
-    "revision": "c4c0d5676132c31646137e1774d85541",
-    "url": "/static/media/footer.c4c0d567.JPG"
   },
   {
     "revision": "8faa0c9d72fefad51882bb1f98b84890",
