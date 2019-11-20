@@ -11,6 +11,7 @@
     .firstland{
         background: url('../../images/rooftea.jpg');
         background-size: cover;
+        padding: 0 !important;
        
      }
      .conte{
