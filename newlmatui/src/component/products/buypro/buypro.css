@@ -17,9 +17,10 @@
     .emailcard{
         background: yellow;
         height: auto;
-        width: 1041px;
+        width: auto;
         margin-left: 6%;
-        margin-top: -2%;
+        margin-right: 6%;
+        margin-top: -5%;
         grid-template-columns: 1fr 2fr;
 
     }

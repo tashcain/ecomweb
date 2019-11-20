@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import  './about04.css';
-import img01 from '../../../images/girl.jpg';
+import img01 from '../../../images/lmasaamteaowner.jpg';
 
 export default class About04 extends Component {
     render() {
@@ -14,7 +14,8 @@ export default class About04 extends Component {
                             
                 </div>
                 <div class="col-sm ownrimg">
-                <img src={img01}  alt="girl"/>
+                <img src={img01}  alt="owner"/>
+               
                 </div>
                 </div>
             </div>

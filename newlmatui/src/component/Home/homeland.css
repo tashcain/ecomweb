@@ -9,8 +9,9 @@
 }
 @media(max-width:700px){
     .firstland{
-        background: pink;
+        background: url('../../images/assamtea.JPG');
         background-size: cover;
+       
      }
      .conte{
          margin-top: 2%;
