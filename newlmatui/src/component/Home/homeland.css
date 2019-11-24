@@ -25,14 +25,15 @@
 
 @media(min-width: 700px){
     .firstland{
-        background: url('../../images/teabg4.jpg');
+        background: url('../../images/kettel.jpg');
         background-size: cover;
 
     }
 }
 .carr {
     height: 639px;
-    padding-top: 200px;
+    padding-top: 200px !important;
+    height: auto;
     
 }
 

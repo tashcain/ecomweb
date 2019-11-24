@@ -2,12 +2,28 @@
     .landlogo{
         height: 152px;
         font-size: 50px;
-        margin-top: 36%;
+        text-align: left;
+        background: rgba(255,255,255,0.5);
+        margin-top: 130px;
     }
 
     .landlogo p{
         font-size: 31px;
-        color: aliceblue;
+        color: black;
         text-align: left;    }
 }
+
+
+@media(min-width:700px){
+    .landlogo{
+        font-size: 52px;
+        color: navajowhite;
+        text-align: left;
+        margin-left: 634px !important;
+        margin-top: 195px;
+    }
+
+    
+}
+
 
