@@ -22,45 +22,45 @@ const Example = (props) => {
   return (
     <div>
       <Navbar fixed="top" light expand="md">
-        <NavbarBrand href="/">LMAssamtea</NavbarBrand>
+        <NavbarBrand className="logo" href="/">LMAssamtea</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link to="/"><NavLink >Home</NavLink></Link>
+              <Link to="/"><NavLink className="itt" >Home</NavLink></Link>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
+              <DropdownToggle className="itt"  nav caret>
                 Products
               </DropdownToggle>
               <DropdownMenu right>
                <Link to="/products">
-               <DropdownItem>
+               <DropdownItem className="itt" >
                   Products Details
                 </DropdownItem>
                </Link>
                <Link to="/buyprod/00">
-               <DropdownItem>
+               <DropdownItem className="itt" >
                  Shop Cart 
                 </DropdownItem></Link>  
                 
                 <DropdownItem divider />
-                <DropdownItem>
+                <DropdownItem className="itt" >
                  <Link to='/prod/01'>Tulsi Green Tea</Link> 
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className="itt" >
                 <Link to='/prod/02'>Blue Tea</Link> 
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className="itt" >
                 <Link to='/prod/03'>Premium Tea</Link> 
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className="itt" >
                 <Link to='/prod/04'>Green Tea</Link> 
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <Link to="/aboutus"><NavLink >About Us</NavLink></Link>
+              <Link to="/aboutus"><NavLink className="itt"  >About Us</NavLink></Link>
             </NavItem>
           </Nav>
         </Collapse>

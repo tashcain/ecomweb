@@ -2,14 +2,31 @@
     .ownr{
         margin-top: 17%;
         text-align: left;
+        height: auto;
     }
     .col-sm img{
         height:100%;
         width: 100%;
     }
+    .oinfo{
+        background: rgba(255,255,255,0.5) ;
+        font-size: 23px;
+        padding-left: 14px;
+        }
+    .ownrimg{
+        height: 100%;
+    }    
 }
 
 @media(min-width:700px){
+    .oinfo{
+    
+    background: rgba(255,255,255,0.5) ;
+    font-size: 20px;
+    margin-left: 99px;
+    width: 439px;
+    padding-left: 14px;
+    }
     .ownr{
         margin-top: 7%;
         text-align: left;

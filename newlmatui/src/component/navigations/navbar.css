@@ -2,3 +2,12 @@
     background: yellow;
     position: fixed;
 }
+
+@media(min-width:700px){
+    .logo{
+        font-size: 32px !important ;
+    padding-left: 40px !important;
+    }
+    
+    
+}

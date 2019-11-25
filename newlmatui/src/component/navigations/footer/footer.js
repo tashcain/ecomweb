@@ -9,7 +9,8 @@ export default class Footer extends Component {
             <div class="container footer">
         <div class="row">
         <div class="col-sm news">
-            <h4>LMAssamTea</h4>
+            <h4>LMAssamTea <br/> Begin a Healthy Life</h4>
+            
             </div>
             <div class="col-sm about">
             <h4>About Us</h4>

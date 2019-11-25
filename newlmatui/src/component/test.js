@@ -3,6 +3,8 @@ import './test.css';
 import './Home/homeland.css';
 import Car from './Home/carousel/carousel';
 import Firstland from './firstland/firstland';
+// import Gall from './tests/Gall';
+import Extra from './Home/extra/extra';
 
 export default class Test extends Component {
     render() {
@@ -25,6 +27,9 @@ export default class Test extends Component {
                         </div>
                         </div>
                 </div>
+            </div>
+            <div className="container extra">
+                <Extra/>
             </div>
             <div className="container landcard">
                 <div className="row">

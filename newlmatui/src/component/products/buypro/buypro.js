@@ -29,7 +29,7 @@ export default class Buypro extends Component {
 }
 
 saveData(){
-    axios.post('http://localhost:4000/send',{
+    axios.post('https://assamtea.herokuapp.com/send',{
        name:this.state.name,
        email: this.state.email,
        phn: this.state.phn,

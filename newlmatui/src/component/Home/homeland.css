@@ -21,6 +21,9 @@
      .cardcom{
          padding: 10%;
      }
+     .jrnuimg img{
+        height: 408px !important;
+    }
 }
 
 @media(min-width: 700px){
@@ -28,6 +31,10 @@
         background: url('../../images/kettel.jpg');
         background-size: cover;
 
+    }
+    
+    .extra{
+        padding: 100px !important;
     }
 }
 .carr {
