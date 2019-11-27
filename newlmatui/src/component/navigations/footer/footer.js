@@ -25,9 +25,11 @@ export default class Footer extends Component {
             <Link to="https://twitter.com/LMassamtea?s=08"><Icon className="svv" type="twitter-circle" theme="filled" /></Link>
             </p>
             
-            </div>            
+            </div>
         </div>
         </div>
+        <div className="pinkfry">LMassamtea © 2019 Created by Pinkfry</div>            
+
             </div>
         )
     }
