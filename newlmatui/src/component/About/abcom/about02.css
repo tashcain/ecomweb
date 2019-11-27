@@ -12,12 +12,11 @@
         border-radius: 20px;
     }
     .jrny{
-        padding-top: 5%;
+        padding-top: 13%;
         text-align: left;
     }
     .jrny h2{
         text-align: left;
-        font-size: 61px;
         padding-bottom: 6%;
     }
 }
@@ -26,6 +25,10 @@
     .jrny{
         text-align: center;
         margin-top: 15%;
+    }
+    .quut{
+        margin-left: 37%;
+
     }
     .about01{
         padding-top: 18px;

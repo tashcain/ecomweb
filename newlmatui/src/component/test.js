@@ -23,7 +23,9 @@ export default class Test extends Component {
                         <div className='containerfluid conte'>
                             <h1>Assam Tea</h1>
                             <h2>Best in the world</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis tempora repellendus optio incidunt cupiditate voluptas tempore nam beatae rem, magni vel nesciunt. Asperiores quasi ducimus ullam placeat, a in cumque doloribus dolores laborum sint? Maxime pariatur adipisci sequi iusto excepturi corrupti ipsam eos officia laudantium. Asperiores quas explicabo placeat nesciunt.</p>
+                            <p>Assam tea is mainly black tea, the taste of which is sweared upon by tea lovers worldwide. Assam tea which is mainly sold as breakfast tea is known for its body, briskness, malty flavour and strong bright colour.
+
+Assam is at the sea level and the Brahmaputra flows right through it. Assam is an area of high precipitation receiving a high amount of rain every monsoon coupled with high temperatures in the daytime, which creates a greenhouse like conditions of extreme humidity and heat. This tropical climate contributes to its unique malty taste, the feature for which Assam tea is famous for.</p>
                         </div>
                         </div>
                 </div>

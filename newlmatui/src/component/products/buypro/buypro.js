@@ -89,8 +89,8 @@ saveData(){
                         <div className="cont">
                             <h1>LMAssamTea</h1>
                             <h2>Contact Us</h2>
-                            <p><Icon type="contacts" theme='filled' /> 999 999 9999</p>
-                            <p> <Icon type="mail" theme="filled" />  email@email.com</p>
+                            <p><Icon type="contacts" theme='filled' /> +91 9717843707</p>
+                            <p> <Icon type="mail" theme="filled" />  lmasaamtea@gmail.com</p>
                         </div>
                         <div className="email">
                         <form>

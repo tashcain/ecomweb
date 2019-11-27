@@ -9,8 +9,8 @@ export default class Extra extends Component {
             <div className="container about01 bgsd">
             <div className="row">
                 <div className="col-sm jrny">
-                <h2 >Journey so far</h2>
-                <h4>LMAssamTea <br/> was founded in 2013 by Tea Sommelier Matrika to source teas direct from farmers and craft them into unique blends.</h4>            
+                <h2>"If you are cold tea will warm you;<br/> If you are too heated it will cool you;<br/> If you are depressed it will cheer you;<br/> If you are excited it will calm you"</h2>    
+                <h4><span className="quut">-William  Glatstone</span></h4>            
                 </div>
                 <div className="col-sm jrnuimg">
                 <img src={Img01} class="img-fluid " alt="Responsive image"/>

@@ -10,7 +10,7 @@ export default class About02 extends Component {
             <div className="row">
                 <div className="col-sm jrny">
                 <h2 >Journey so far</h2>
-                <h4>LMAssamTea <br/> was founded in 2013 by Tea Sommelier Matrika to source teas direct from farmers and craft them into unique blends.</h4>            
+                <h4>LMAssamTea <br/> was founded in 2013 by Mrs. Leela Matrika to source tea direct from farmers and craft them into unique blends.</h4>            
                 </div>
                 <div className="col-sm">
                 <img src={Img01} class="img-fluid " alt="Responsive image"/>

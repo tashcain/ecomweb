@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './footer.css';
+import {Link} from 'react-router-dom';
 import {Icon} from 'antd';
 
 export default class Footer extends Component {
@@ -14,13 +15,15 @@ export default class Footer extends Component {
             </div>
             <div class="col-sm about">
             <h4>About Us</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, magnam voluptatibus. Id tempora dolores quas nemo ratione voluptates! Amet, asperiores.</p>                
+            <p>LMAssamTea have the best quality product of India’s famous tea garden for tea lovers. We have various type of productions in this business. <Link to="/aboutus">More...</Link></p>
             </div>
             <div class="col-sm follow">
             <h4>Follow Us</h4>
-            <p>Let us be social <br/><Icon type="facebook" theme="filled" />
-            <Icon type="instagram" theme="filled" />
-            <Icon type="twitter-circle" theme="filled" /></p>
+            <p>Let us be social <br/>
+            <Link to="https://www.facebook.com/LMassamtea"><Icon className="fb svv" type="facebook" theme="filled" /></Link>
+            <Icon classname="svv" type="instagram" theme="filled" />
+            <Link to="https://twitter.com/LMassamtea?s=08"><Icon className="svv" type="twitter-circle" theme="filled" /></Link>
+            </p>
             
             </div>            
         </div>

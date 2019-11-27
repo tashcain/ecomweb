@@ -56,8 +56,8 @@ app.post('/send', (req, res) => {
   let mailOptions = {
       from: '"shubham" <shubham0baswal8@gmail.com>', // sender address
       to: 'shubhambaswal10@gmail.com', // list of receivers
-      subject: 'Node Contact Request', // Subject line
-      text: 'Hello world?', // plain text body
+      subject: 'New order', // Subject line
+      text: 'Hi, owner/Lmassamtea', // plain text body
       html: output // html body
   };
 
