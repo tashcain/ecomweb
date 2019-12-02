@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.4da6eae3.chunk.css",
-    "main.js": "/static/js/main.05c257f9.chunk.js",
-    "main.js.map": "/static/js/main.05c257f9.chunk.js.map",
+    "main.js": "/static/js/main.51630807.chunk.js",
+    "main.js.map": "/static/js/main.51630807.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cc22ba9c.js",
     "runtime-main.js.map": "/static/js/runtime-main.cc22ba9c.js.map",
     "static/css/2.764c1c17.chunk.css": "/static/css/2.764c1c17.chunk.css",
-    "static/js/2.e61eb5e6.chunk.js": "/static/js/2.e61eb5e6.chunk.js",
-    "static/js/2.e61eb5e6.chunk.js.map": "/static/js/2.e61eb5e6.chunk.js.map",
+    "static/js/2.42afb0fd.chunk.js": "/static/js/2.42afb0fd.chunk.js",
+    "static/js/2.42afb0fd.chunk.js.map": "/static/js/2.42afb0fd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3a2994c055a76f405243aeb20a0c05e3.js": "/precache-manifest.3a2994c055a76f405243aeb20a0c05e3.js",
+    "precache-manifest.2e9c1940aefdf9c1544b83225aa2571f.js": "/precache-manifest.2e9c1940aefdf9c1544b83225aa2571f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.764c1c17.chunk.css.map": "/static/css/2.764c1c17.chunk.css.map",
     "static/css/main.4da6eae3.chunk.css.map": "/static/css/main.4da6eae3.chunk.css.map",
     "static/media/BlueTea.jpg": "/static/media/BlueTea.b165489f.jpg",
     "static/media/BlueTea1.jpg": "/static/media/BlueTea1.b165489f.jpg",
+    "static/media/Founder Chairman.JPG": "/static/media/Founder Chairman.5609135e.JPG",
     "static/media/PremiumTea.jpg": "/static/media/PremiumTea.2f0ab3a8.jpg",
     "static/media/TulsiGreenTea1.jpg": "/static/media/TulsiGreenTea1.1fc2bee0.jpg",
     "static/media/carimg1.JPG": "/static/media/carimg1.b9e6f77b.JPG",
@@ -22,7 +23,6 @@
     "static/media/carimg3.JPG": "/static/media/carimg3.fe9cc0b0.JPG",
     "static/media/homeland.css": "/static/media/roofteacut2.3d29fbd8.jpg",
     "static/media/buypro.css": "/static/media/leavesbg02.b2b75581.JPG",
-    "static/media/lmasaamteaowner.jpg": "/static/media/lmasaamteaowner.1409b436.jpg",
     "static/media/ptinfo.jpg": "/static/media/ptinfo.7aeea290.jpg",
     "static/media/tgtinfo.jpg": "/static/media/tgtinfo.945ff748.jpg",
     "static/media/wholeleafGreentea.jpg": "/static/media/wholeleafGreentea.b3c7e708.jpg"
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.cc22ba9c.js",
     "static/css/2.764c1c17.chunk.css",
-    "static/js/2.e61eb5e6.chunk.js",
+    "static/js/2.42afb0fd.chunk.js",
     "static/css/main.4da6eae3.chunk.css",
-    "static/js/main.05c257f9.chunk.js"
+    "static/js/main.51630807.chunk.js"
   ]
 }

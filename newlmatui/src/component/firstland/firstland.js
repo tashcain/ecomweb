@@ -8,7 +8,7 @@ export default class Firstland extends Component {
             <div>
             <div className="container">
                 <div className="landlogo">
-                LMAssamTea
+                LM Assam Tea
           <p>Begin A Healthy Life</p>
                     </div> 
         </div>

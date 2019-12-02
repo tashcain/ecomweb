@@ -10,12 +10,12 @@ export default class Footer extends Component {
             <div class="container footer">
         <div class="row">
         <div class="col-sm news">
-            <h4>LMAssamTea <br/> Begin a Healthy Life</h4>
+            <h4>LM Assam Tea <br/> Begin a Healthy Life</h4>
             
             </div>
             <div class="col-sm about">
             <h4>About Us</h4>
-            <p>LMAssamTea have the best quality product of India’s famous tea garden for tea lovers. We have various type of productions in this business. <Link to="/aboutus">More...</Link></p>
+            <p>LM Assam Tea have the best quality product of India’s famous tea garden for tea lovers. We have various type of productions in this business. <Link to="/aboutus">More...</Link></p>
             </div>
             <div class="col-sm follow">
             <h4>Follow Us</h4>

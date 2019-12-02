@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import  './about04.css';
-import img01 from '../../../images/lmasaamteaowner.jpg';
+import img01 from '../../../images/Founder Chairman.JPG';
 
 export default class About04 extends Component {
     render() {

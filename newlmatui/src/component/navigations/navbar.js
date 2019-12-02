@@ -22,7 +22,7 @@ const Example = (props) => {
   return (
     <div>
       <Navbar fixed="top" light expand="md">
-        <NavbarBrand className="logo" href="/">LMAssamtea</NavbarBrand>
+        <NavbarBrand className="logo" href="/">LM Assam Tea</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
@@ -56,6 +56,9 @@ const Example = (props) => {
                 </DropdownItem>
                 <DropdownItem className="itt" >
                 <Link to='/prod/04'>Green Tea</Link> 
+                </DropdownItem>
+                <DropdownItem className="itt" >
+                <Link to='/prod/05'>Blacktea</Link> 
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

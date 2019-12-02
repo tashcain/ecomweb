@@ -40,25 +40,25 @@ Assam is at the sea level and the Brahmaputra flows right through it. Assam is a
                 <div class="col-sm card">
                     <div className="card01">
                         <span>1</span>
-                        <p>We take pride in our sourcing. We buy harvest from farmers, not commodities from brockers</p>
+                        <p>We take pride in our roots. We provide the authenticity, the true taste of Assam</p>
                     </div>
                 </div>
                 <div class="col-sm card">
                 <div className="card02">
                         <span>2</span>
-                        <p>Our teas are crafted in small batches - We never compromise on freshness.</p>
+                        <p>Our teas are the finest of Assam- We never compromise on freshness.</p>
                     </div>
                 </div>
                 <div class="col-sm card">
                 <div className="card03">
                         <span>3</span>
-                        <p>We never choose flavour over health - 100% natural ingredients always.</p>
+                        <p>We never compromise on flavour or health - 100% natural ingredients always.</p>
                     </div>
                 </div>
                 <div class="col-sm card">
                 <div className="card03">
                         <span>4</span>
-                        <p>When you call us, you’re talking to another tea lover, not a recorded message.</p>
+                        <p>We would love to listen to your experience with Assam Tea, do call us. </p>
                     </div>
                 </div>
             </div>
