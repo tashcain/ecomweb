@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './navbar.css';
 import {Link} from 'react-router-dom';
+import Img01 from '../../images/logolm.png';
 import {
   Collapse,
   Navbar,
@@ -22,7 +23,8 @@ const Example = (props) => {
   return (
     <div>
       <Navbar fixed="top" light expand="md">
-        <NavbarBrand className="logo" href="/">LM Assam Tea</NavbarBrand>
+
+        <NavbarBrand className="logo" href="/"><img src={Img01} alt="logo"/>LM Assam Tea</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

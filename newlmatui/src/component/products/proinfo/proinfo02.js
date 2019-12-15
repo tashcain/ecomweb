@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import img01 from '../../../images/BlueTea.jpg';
 import './proinfo.css';
+import {Button} from 'antd';
+import {Link} from 'react-router-dom';
+
 
 export default class Proinfo02 extends Component {
     render() {
@@ -8,8 +11,11 @@ export default class Proinfo02 extends Component {
             <div>
             <div className='infocard container'>
                     <div className='tht01'>
-                    <h2>Blue Tea</h2>
-                    <img src={img01} className="img-fluid" alt=""/>
+                    <h2>Blue Tea</h2><br/>
+                    <img src={img01} className="img-fluid" alt=""/><br/>
+                    <h5>Price: <strike>₹ 600/-</strike> ₹ 580/- (100 gm)</h5>
+                        <Link to="buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
+
                     <h3>1. Antioxidant properties</h3>
                     <p>One of the major benefits of consuming blue tea or butterfly pea tea is its antioxidant properties. Consuming antioxidant-rich foods is vital for health since they fight off free radicals, which are the primary reason for premature ageing of the body.</p>
                     <h3>2. Anti-diabetic properties</h3>

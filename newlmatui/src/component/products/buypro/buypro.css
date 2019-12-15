@@ -69,6 +69,10 @@
         text-align: left;
     }
 
+    .diis{
+        display: none;
+    }
+
     .cont p{
         text-align: justify;
         padding-left: 25%;

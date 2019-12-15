@@ -2,6 +2,17 @@ import React, { Component } from 'react';
 import {Icon} from 'antd';
 import axios from 'axios';
 import './buypro.css';
+import Img01 from '../../../images/BlueTea1.jpg';
+import Img02 from '../../../images/TulsiGreenTea1.jpg';
+import Img03 from '../../../images/wholeleafGreentea.jpg';
+import Img04 from '../../../images/PremiumTea.jpg';
+import Img05 from '../../../images/oolongtea.jpg';
+import Img06 from '../../../images/masalatea.jpg';
+import Img07 from '../../../images/gtlg.JPG';
+import Img08 from '../../../images/lemongt.JPG';
+import Img09 from '../../../images/roset.JPG';
+import Img10 from '../../../images/whitet.JPG';
+import Img11 from '../../../images/Blackt.JPG';
 
 export default class Buypro extends Component {
 
@@ -15,7 +26,10 @@ export default class Buypro extends Component {
         phn:null,
         teatype:null,
         quantity: null,
-        message: null
+        message: null,
+        teaimg: null,
+        price: null,
+        totalprice: null
     }
     this.setvalue= this.setvalue.bind(this);
     this.saveData= this.saveData.bind(this);
@@ -24,7 +38,7 @@ export default class Buypro extends Component {
    setvalue(e){
        console.log(e.target.value);
     this.setState({
-        [e.target.id]:e.target.value
+        [e.target.id]:e.target.value,
     })
 }
 
@@ -57,22 +71,80 @@ saveData(){
         console.log(id);
         if(id === '01'){
             this.setState({
-                tea: "Tulsi Green Tea"
+                tea: "Tulsi Green Tea",
+                teaimg: Img02,
+                price: 280
             })
         }
         else if( id === '02'){
             this.setState({
-                tea: "Blue Tea"
+                tea: "Blue Tea",
+                teaimg: Img01,
+                price: 580
+
             })
         }
         else if( id === '03'){
             this.setState({
-                tea: "Black Tea"
+                tea: "Premium Tea",
+                teaimg: Img04,
+                price: 150
             })
         } 
         else if( id === '04'){
             this.setState({
-                tea: "Green Tea"
+                tea: "Green Tea",
+                teaimg:Img03,
+                price: 200
+            })
+        }
+        else if( id === '05'){
+            this.setState({
+                tea: "Oolong Tea",
+                teaimg: Img05,
+                price: 280
+            })
+        } 
+        else if( id === '06'){
+            this.setState({
+                tea: "Masala Tea",
+                teaimg: Img06,
+                price: 150
+            })
+        }
+        else if( id === '07'){
+            this.setState({
+                tea: "Rose Tea",
+                teaimg: Img09,
+                price: 280
+            })
+        }
+        else if( id === '08'){
+            this.setState({
+                tea: "Stevia Green Tea",
+                teaimg: Img08,
+                price: 220
+            })
+        }
+        else if( id === '09'){
+            this.setState({
+                tea: "Green Tea With Lemon Grass",
+                teaimg: Img07,
+                price: 240
+            })
+        }
+        else if( id === '10'){
+            this.setState({
+                tea: "White Tea",
+                teaimg: Img10,
+                price: 890
+            })
+        }
+        else if( id === '11'){
+            this.setState({
+                tea: "Orthodox Black Tea",
+                teaimg: Img11,
+                price: 240
             })
         } 
         else if( id === '00'){
@@ -90,7 +162,10 @@ saveData(){
                             <h1>LMAssamTea</h1>
                             <h2>Contact Us</h2>
                             <p><Icon type="contacts" theme='filled' /> +91 9717843707</p>
-                            <p> <Icon type="mail" theme="filled" />  lmasaamtea@gmail.com</p>
+                            <p> <Icon type="mail" theme="filled" />  lmasaamtea@gmail.com</p><br/>
+                            <div>
+                            <img className="cardsize diis img-fluid" onMouseOver={this.onHover} alt="example" src={this.state.teaimg} />
+                            </div>
                         </div>
                         <div className="email">
                         <form>
@@ -118,7 +193,31 @@ saveData(){
                                 <label for="exampleFormControlTextarea1">Message</label>
                                 <textarea onChange={this.setvalue} className="form-control" id="message" rows="3"></textarea>
                             </div>
-                            <button  onClick={this.saveData} class="btn btn-primary mb-2">Send</button>
+                            <div><h2>Total Price: ₹ {this.state.price * this.state.quantity}/-</h2></div>
+                            <button  onClick={this.saveData} class="btn btn-primary mb-2">Order</button>
+                            {/* Button trigger modal
+ <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+      </button>                            <div className="modal fade" id="exampleModal" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div className="modal-body">
+              ...
+            </div>
+            <div className="modal-footer">
+              <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" className="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
 
                            </form>
                         </div>
