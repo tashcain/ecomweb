@@ -68,7 +68,7 @@ const Example = (props) => {
                 </DropdownItem> <DropdownItem className="itt" >
                 <Link to='/prod/09'>Stevia tea</Link> 
                 </DropdownItem> <DropdownItem className="itt" >
-                <Link to='/prod/010'>Lemongrass tea</Link> 
+                <Link to='/prod/10'>Lemongrass tea</Link> 
                 </DropdownItem> <DropdownItem className="itt" >
                 <Link to='/prod/11'>White tea</Link> 
                 </DropdownItem>
