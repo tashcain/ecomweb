@@ -60,8 +60,21 @@ const Example = (props) => {
                 <Link to='/prod/04'>Green Tea</Link> 
                 </DropdownItem>
                 <DropdownItem className="itt" >
-                <Link to='/prod/05'>Blacktea</Link> 
+                <Link to='/prod/06'>Oolong tea</Link> 
+                </DropdownItem> <DropdownItem className="itt" >
+                <Link to='/prod/07'>Masala tea</Link> 
+                </DropdownItem> <DropdownItem className="itt" >
+                <Link to='/prod/08'>Rose tea</Link> 
+                </DropdownItem> <DropdownItem className="itt" >
+                <Link to='/prod/09'>Stevia tea</Link> 
+                </DropdownItem> <DropdownItem className="itt" >
+                <Link to='/prod/010'>Lemongrass tea</Link> 
+                </DropdownItem> <DropdownItem className="itt" >
+                <Link to='/prod/11'>White tea</Link> 
                 </DropdownItem>
+                <DropdownItem className="itt" >
+                <Link to='/prod/05'>Black tea</Link> 
+                </DropdownItem> 
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>

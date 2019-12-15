@@ -18,7 +18,7 @@ export default class About04 extends Component {
                 <img src={img01}  alt="owner"/>
                 <div className="oinfo">
                 <span className="nameo">Mrs. Leela</span><br/>
-                    <span className="flag">Owner,LMAssamTea</span>
+                    <span className="flag">Owner,LM Assam Tea</span>
                 </div>
                
                  </div>

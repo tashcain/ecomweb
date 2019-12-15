@@ -28,7 +28,7 @@ export default class Footer extends Component {
             </div>
         </div>
         </div>
-        <div className="pinkfry">LMassamtea © 2019 Created by Pinkfry</div>            
+        <div className="pinkfry">LM Assam Tea © 2019 Created by Pinkfry</div>            
 
             </div>
         )
