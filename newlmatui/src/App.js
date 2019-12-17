@@ -19,6 +19,7 @@ import Proinfo10 from './component/products/proinfo/proinfo10';
 import Proinfo11 from './component/products/proinfo/proinfo11';
 import Buypro from './component/products/buypro/buypro';
 import {Link,BrowserRouter, Switch, Route} from 'react-router-dom';
+import Gpay from './component/products/proinfo/gpay/gpayqr';
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       <Route exact path = '/prod/10' component = {Proinfo10}/>
       <Route exact path = '/prod/11' component = {Proinfo11}/>
       <Route exact path = '/prod/buyprod/:id' component = {Buypro}/>
-      
+      <Route exact path = '/tttt' component = {Gpay}/>
+     
 
       <Route exact path = '/buyprod/:id' component = {Buypro}/>
       <Route exact path = '/test' component = {Homeland}/>

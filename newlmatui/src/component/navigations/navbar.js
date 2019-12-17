@@ -80,6 +80,9 @@ const Example = (props) => {
             <NavItem>
               <Link to="/aboutus"><NavLink className="itt"  >About Us</NavLink></Link>
             </NavItem>
+            <NavItem>
+              <Link to="/tttt"><NavLink className="itt"  >Gpay</NavLink></Link>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

@@ -11,6 +11,7 @@ export default class Footer extends Component {
         <div class="row">
         <div class="col-sm news">
             <h4>LM Assam Tea <br/> Begin a Healthy Life</h4>
+            <Link to="/buyprod/101"><p>Write To Us / give feedback</p></Link>
             
             </div>
             <div class="col-sm about">
@@ -20,9 +21,9 @@ export default class Footer extends Component {
             <div class="col-sm follow">
             <h4>Follow Us</h4>
             <p>Let us be social <br/>
-            <Link to="https://www.facebook.com/LMassamtea"><Icon className="fb svv" type="facebook" theme="filled" /></Link>
+            <a target="_blank" href="https://www.facebook.com/LMassamtea"><Icon className="fb svv" type="facebook" theme="filled" /></a>
             <Icon classname="svv" type="instagram" theme="filled" />
-            <Link to="https://twitter.com/LMassamtea?s=08"><Icon className="svv" type="twitter-circle" theme="filled" /></Link>
+            <a target="_blank" href="https://twitter.com/LMassamtea?s=08"><Icon className="svv" type="twitter-circle" theme="filled" /></a>
             </p>
             
             </div>

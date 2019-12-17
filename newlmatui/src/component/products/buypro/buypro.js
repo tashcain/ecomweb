@@ -29,7 +29,8 @@ export default class Buypro extends Component {
         message: null,
         teaimg: null,
         price: null,
-        totalprice: null
+        totalprice: null,
+        actii: null
     }
     this.setvalue= this.setvalue.bind(this);
     this.saveData= this.saveData.bind(this);
@@ -151,6 +152,11 @@ saveData(){
             this.setState({
                 tea: null
             })
+        }
+        else if( id === '101'){
+            this.setState({
+                actii: "disabled"
+            })
         }   
     }
     render() {
@@ -171,27 +177,27 @@ saveData(){
                         <form>
                         <div class="form-group">
                             <label for="formGroupExampleInput">Name</label>
-                            <input type="text" onChange={this.setvalue} className="form-control" id="name" placeholder="Name"/>
+                            <input type="text" onChange={this.setvalue} disabled={this.state.actii}  className="form-control" id="name" placeholder="Name"/>
                         </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email"onChange={this.setvalue} className="form-control" id="email" placeholder="name@example.com"/>
+                                <input type="email"onChange={this.setvalue} disabled={this.state.actii} className="form-control" id="email" placeholder="name@example.com"/>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Phone_Number</label>
-                                <input type="tel" onChange={this.setvalue} className="form-control" id="phn" placeholder="Phone_Number"/>
+                                <input type="tel" onChange={this.setvalue} disabled={this.state.actii} className="form-control" id="phn" placeholder="Phone_Number"/>
                             </div>
                             <div class="form-group">
                                 <label for="formGroupExampleInput">Tea Name</label>
-                                <input type="text" onChange={this.setvalue} className="form-control" id="teatype" defaultValue={this.state.tea}  placeholder={this.state.tea}/>
+                                <input type="text" onChange={this.setvalue} disabled={this.state.actii} className="form-control" id="teatype" defaultValue={this.state.tea}  placeholder={this.state.tea}/>
                             </div>
                             <div class="form-group">
                                 <label for="formGroupExampleInput">quantity</label>
-                                <input type="text" onChange={this.setvalue} className="form-control" id="quantity" placeholder="quantity"/>
+                                <input type="text" onChange={this.setvalue} disabled={this.state.actii} className="form-control" id="quantity" placeholder="quantity"/>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea onChange={this.setvalue} className="form-control" id="message" rows="3"></textarea>
+                                <textarea onChange={this.setvalue}  className="form-control" id="message" rows="3"></textarea>
                             </div>
                             <div><h2>Total Price: ₹ {this.state.price * this.state.quantity}/-</h2></div>
                             <button  onClick={this.saveData} class="btn btn-primary mb-2">Order</button>
