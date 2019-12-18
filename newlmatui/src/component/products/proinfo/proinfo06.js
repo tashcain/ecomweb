@@ -14,7 +14,7 @@ export default class Proinfo06 extends Component {
                     <h2> Oolong Tea </h2><br/>
                     <img src={img01} className="img-fluid " alt=""/><br/><br/>
                     <h5>Price: <strike>₹ 300/-</strike> ₹ 280/- (100 gm)</h5>
-                        <Link to="buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
+                        <Link to="buyprod/05"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
 
 <p>OLONG TEA:  Benefits for heart, brain, bone and Teeth it may boost our metabolism, decrease our risk of developing type 2 diabetes and protect against certain types of cancer. At the end of the day oolong tea is an incredibly exceptional tea for your lifestyle. Plant Camellia sinensis. its brew is light and delicate with a slightly sweet flavor highly regarded for its health benefits</p>                    <div class="row">
                         <div class="col-sm">

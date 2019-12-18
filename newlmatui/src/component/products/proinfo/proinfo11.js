@@ -15,7 +15,7 @@ export default class Proinfo11 extends Component {
                     <h2> White Tea </h2><br/>
                     <img src={img01} className="img-fluid " alt=""/><br/><br/>
                     <h5>Price: <strike>₹ 900/-</strike> ₹ 890/- (50 gm)</h5>
-                        <Link to="buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
+                        <Link to="buyprod/05"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
 
                         <p>WHITE TEA  is hand harvested.  Made only from the unopened buds and young leaves of the tea plant Camellia sinensis. It’s brew is light and delicate with a slightly sweet flavor highly regarded for its health benefits.</p>                    <div class="row">
                         <div class="col-sm">

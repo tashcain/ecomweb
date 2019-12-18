@@ -15,7 +15,7 @@ export default class Proinfo04 extends Component {
                     <h2> Green Tea </h2>
                     <img src={img01} className="img-fluid" alt=""/><br/><br/>
                     <h5>Price: <strike>₹ 210/-</strike> ₹ 200/- (100 gm)</h5>
-                        <Link to="buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
+                        <Link to="buyprod/04"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
 
                     <p>High quality green tea leaves of Assamis one of the healthiest drinks with highest amount of antioxidants and less amount of caffeine and Green Tea Contains Bioactive Compounds That Improve Health. </p>
                     <div class="row">

@@ -14,7 +14,7 @@ export default class Proinfo02 extends Component {
                     <h2>Blue Tea</h2><br/>
                     <img src={img01} className="img-fluid" alt=""/><br/>
                     <h5>Price: <strike>₹ 600/-</strike> ₹ 580/- (100 gm)</h5>
-                        <Link to="buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
+                        <Link to="buyprod/02"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
 
                     <h3>1. Antioxidant properties</h3>
                     <p>One of the major benefits of consuming blue tea or butterfly pea tea is its antioxidant properties. Consuming antioxidant-rich foods is vital for health since they fight off free radicals, which are the primary reason for premature ageing of the body.</p>

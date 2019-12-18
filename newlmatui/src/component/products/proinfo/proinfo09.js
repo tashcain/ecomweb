@@ -15,7 +15,7 @@ export default class Proinfo09 extends Component {
                     <h2> Stevia Green Tea </h2><br/>
                     <img src={img01} className="img-fluid " alt=""/><br/><br/>
                     <h5>Price: <strike>₹ 250/-</strike> ₹ 220/- (100 gm)</h5>
-                        <Link to="buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
+                        <Link to="buyprod/08"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
 
                     <p>Stevia flavor : Stevia is very helpful to reduce calories an intensely sweet in test it
                     has been used sweeten beverages and making tea so stevia and Green tea both are boost

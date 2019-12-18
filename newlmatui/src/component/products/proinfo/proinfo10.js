@@ -15,7 +15,7 @@ export default class Proinfo10 extends Component {
                     <h2>Lemon Grass Tea </h2><br/>
                     <img src={img01} className="img-fluid " alt=""/><br/><br/>
                     <h5>Price: <strike>₹ 280/-</strike> ₹ 240/- (100 gm)</h5>
-                        <Link to="buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
+                        <Link to="buyprod/09"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
 
                     <p>lemongrass flavor: Lemongrass contains several antioxidants, which can help
                     scavenge free radicals in your body that may cause disease. These antioxidants

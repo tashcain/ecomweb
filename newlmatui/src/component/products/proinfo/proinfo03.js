@@ -24,7 +24,7 @@ export default class Proinfo03 extends Component {
                         <div class="col-sm badi">
                         <img src={img01} className="img-fluid" alt=""/><br/><br/>
                         <h5>Price: <strike>₹ 310/-</strike> ₹ 280/- (100 gm)</h5>
-                        <Link to="buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
+                        <Link to="buyprod/03"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
 
                         </div>
                     </div>    

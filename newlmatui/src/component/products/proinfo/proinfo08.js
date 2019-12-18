@@ -15,7 +15,7 @@ export default class Proinfo08 extends Component {
                     <h2> Rose Tea </h2><br/>
                     <img src={img01} className="img-fluid " alt=""/><br/><br/>
                     <h5>Price: <strike>₹ 300/-</strike> ₹ 280/- (100 gm)</h5>
-                        <Link to="buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
+                        <Link to="buyprod/07"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
 
                     <p>Rose flavor: It may help prevent urinary tract infections due to its detox and diuretic
                      properties green tea has lot of antioxidant which help weight lose as well as skin care</p>

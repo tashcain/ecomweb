@@ -15,7 +15,7 @@ export default class Proinfo05 extends Component {
                     <h2> Orthodox Black Tea </h2><br/>
                     <img src={img01} className="img-fluid " alt=""/><br/><br/>
                     <h5>Price: <strike>₹ 250/-</strike> ₹ 240/- (100 gm)</h5>
-                        <Link to="buyprod/01"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
+                        <Link to="buyprod/11"><Button type="primary" onClick={this.clickHandler}>Buy Now</Button></Link>
 
                     <p>ORTHODOX BLACK TEA :High quality tea leaves of Assam is one of the healthiest drinks with highest amount of antioxidants. Black tea is more oxidized it is generally stronger in flavour. It is made from Camellia synesis leaves black tea has more health benefit.</p>
                     <div class="row">
