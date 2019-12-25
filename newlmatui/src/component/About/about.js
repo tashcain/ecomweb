@@ -8,6 +8,10 @@ import About04 from './abcom/about04';
 import './about.css';
 
 export default class About extends Component {
+
+    componentDidUpdate() {
+        window.scrollTo(0,0);
+      }
     render() {
         return (
             <div>

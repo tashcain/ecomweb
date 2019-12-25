@@ -13,7 +13,7 @@ export default class Extra extends Component {
                 <h4><span className="quut">-William  Glatstone</span></h4>            
                 </div>
                 <div className="col-sm jrnuimg">
-                <img src={Img01} class="img-fluid " alt="Responsive image"/>
+                <img src={Img01} class="img-fluid " alt="img"/>
                 </div>
 
             </div>

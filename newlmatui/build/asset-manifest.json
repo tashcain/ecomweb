@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.d8bdac3d.chunk.css",
-    "main.js": "/static/js/main.63c7e82b.chunk.js",
-    "main.js.map": "/static/js/main.63c7e82b.chunk.js.map",
+    "main.js": "/static/js/main.6252c6c8.chunk.js",
+    "main.js.map": "/static/js/main.6252c6c8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cc22ba9c.js",
     "runtime-main.js.map": "/static/js/runtime-main.cc22ba9c.js.map",
     "static/css/2.764c1c17.chunk.css": "/static/css/2.764c1c17.chunk.css",
-    "static/js/2.ff85610d.chunk.js": "/static/js/2.ff85610d.chunk.js",
-    "static/js/2.ff85610d.chunk.js.map": "/static/js/2.ff85610d.chunk.js.map",
+    "static/js/2.fb6daef0.chunk.js": "/static/js/2.fb6daef0.chunk.js",
+    "static/js/2.fb6daef0.chunk.js.map": "/static/js/2.fb6daef0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a37418886baa7c7ffb78c8980ab745b3.js": "/precache-manifest.a37418886baa7c7ffb78c8980ab745b3.js",
+    "precache-manifest.ab256566313d3074e5271761a30eb176.js": "/precache-manifest.ab256566313d3074e5271761a30eb176.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.764c1c17.chunk.css.map": "/static/css/2.764c1c17.chunk.css.map",
     "static/css/main.d8bdac3d.chunk.css.map": "/static/css/main.d8bdac3d.chunk.css.map",
     "static/media/Blackt.JPG": "/static/media/Blackt.f590add7.JPG",
     "static/media/BlueTea.jpg": "/static/media/BlueTea.b165489f.jpg",
     "static/media/BlueTea1.jpg": "/static/media/BlueTea1.b165489f.jpg",
-    "static/media/Founder Chairman.JPG": "/static/media/Founder Chairman.5609135e.JPG",
     "static/media/PremiumTea.jpg": "/static/media/PremiumTea.2f0ab3a8.jpg",
     "static/media/TulsiGreenTea1.jpg": "/static/media/TulsiGreenTea1.1fc2bee0.jpg",
     "static/media/carimg1.JPG": "/static/media/carimg1.b9e6f77b.JPG",
@@ -28,6 +27,7 @@
     "static/media/lemongt.JPG": "/static/media/lemongt.630fd2fe.JPG",
     "static/media/masalatea.jpg": "/static/media/masalatea.df62b9d2.jpg",
     "static/media/oolongtea.jpg": "/static/media/oolongtea.12bc0265.jpg",
+    "static/media/ownerplc.jpg": "/static/media/ownerplc.41094097.jpg",
     "static/media/ptinfo.jpg": "/static/media/ptinfo.7aeea290.jpg",
     "static/media/qrcode.jpg": "/static/media/qrcode.31611c37.jpg",
     "static/media/roset.JPG": "/static/media/roset.b6340547.JPG",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.cc22ba9c.js",
     "static/css/2.764c1c17.chunk.css",
-    "static/js/2.ff85610d.chunk.js",
+    "static/js/2.fb6daef0.chunk.js",
     "static/css/main.d8bdac3d.chunk.css",
-    "static/js/main.63c7e82b.chunk.js"
+    "static/js/main.6252c6c8.chunk.js"
   ]
 }

@@ -67,6 +67,10 @@ saveData(){
     })
     }
 
+    componentDidUpdate() {
+        window.scrollTo(0,0);
+      }
+
     componentDidMount(){
         let id = this.props.match.params.id;
         console.log(id);
@@ -177,15 +181,15 @@ saveData(){
                         <form>
                         <div class="form-group">
                             <label for="formGroupExampleInput">Name</label>
-                            <input type="text" onChange={this.setvalue} disabled={this.state.actii}  className="form-control" id="name" placeholder="Name"/>
+                            <input type="text" onChange={this.setvalue}   className="form-control" id="name" placeholder="Name"/>
                         </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email"onChange={this.setvalue} disabled={this.state.actii} className="form-control" id="email" placeholder="name@example.com"/>
+                                <input type="email"onChange={this.setvalue}  className="form-control" id="email" placeholder="name@example.com"/>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Phone_Number</label>
-                                <input type="tel" onChange={this.setvalue} disabled={this.state.actii} className="form-control" id="phn" placeholder="Phone_Number"/>
+                                <input type="tel" onChange={this.setvalue} className="form-control" id="phn" placeholder="Phone_Number"/>
                             </div>
                             <div class="form-group">
                                 <label for="formGroupExampleInput">Tea Name</label>
@@ -201,31 +205,8 @@ saveData(){
                             </div>
                             <div><h2>Total Price: ₹ {this.state.price * this.state.quantity}/-</h2></div>
                             <button  onClick={this.saveData} class="btn btn-primary mb-2">Order</button>
-                            {/* Button trigger modal
- <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
-      </button>                            <div className="modal fade" id="exampleModal" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div className="modal-dialog" role="document">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div className="modal-body">
-              ...
-            </div>
-            <div className="modal-footer">
-              <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" className="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-
-                           </form>
+     
+                                </form>
                         </div>
                     </div>
                 </div>

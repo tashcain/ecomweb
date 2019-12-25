@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import img01 from '../../../../images/qrcode.jpg';
 import '../proinfo.css';
-import {Button} from 'antd';
-import {Link} from 'react-router-dom';
+
 
 
 

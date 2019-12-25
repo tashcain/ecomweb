@@ -16,14 +16,14 @@ export default class Footer extends Component {
             </div>
             <div class="col-sm about">
             <h4>About Us</h4>
-            <p>LM Assam Tea have the best quality product of India’s famous tea garden for tea lovers. We have various type of productions in this business. <Link to="/aboutus">More...</Link></p>
+            <p>LM Assam Tea have the best quality product of India’s famous tea garden for tea lovers. We have various type of productions in this business. <Link to="/aboutus" >More...</Link></p>
             </div>
             <div class="col-sm follow">
             <h4>Follow Us</h4>
             <p>Let us be social <br/>
-            <a target="_blank" href="https://www.facebook.com/LMassamtea"><Icon className="fb svv" type="facebook" theme="filled" /></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/LMassamtea"><Icon className="fb svv" type="facebook" theme="filled" /></a>
             <Icon classname="svv" type="instagram" theme="filled" />
-            <a target="_blank" href="https://twitter.com/LMassamtea?s=08"><Icon className="svv" type="twitter-circle" theme="filled" /></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/LMassamtea?s=08"><Icon className="svv" type="twitter-circle" theme="filled" /></a>
             </p>
             
             </div>

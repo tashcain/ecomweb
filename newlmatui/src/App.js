@@ -18,20 +18,20 @@ import Proinfo09 from './component/products/proinfo/proinfo09';
 import Proinfo10 from './component/products/proinfo/proinfo10';
 import Proinfo11 from './component/products/proinfo/proinfo11';
 import Buypro from './component/products/buypro/buypro';
-import {Link,BrowserRouter, Switch, Route} from 'react-router-dom';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Gpay from './component/products/proinfo/gpay/gpayqr';
+
 
 function App() {
   return (
     <div className="App">
-    <BrowserRouter> 
+    <BrowserRouter > 
      <Example/>
      <div >
-    
-    
-      <Switch>
+     
+     <Switch>
       <Route exact path = '/' component={Test}/>
-      <Route exact path = '/aboutus' component={About}/>
+      <Route onChange={() => window.scrollTo(0, 0)} exact path = '/aboutus' component={About}/>
       <Route exact path = '/products' component={Products}/>
       <Route exact path = '/prod/01' component = {Proinfo01}/>
       <Route exact path = '/prod/02' component = {Proinfo02}/>
@@ -46,18 +46,11 @@ function App() {
       <Route exact path = '/prod/11' component = {Proinfo11}/>
       <Route exact path = '/prod/buyprod/:id' component = {Buypro}/>
       <Route exact path = '/tttt' component = {Gpay}/>
-     
-
       <Route exact path = '/buyprod/:id' component = {Buypro}/>
       <Route exact path = '/test' component = {Homeland}/>
-
       </Switch> 
-       
-     
-
-       
-       
-     </div>
+      
+      </div>
      <div>
        <Footer/>
      </div>

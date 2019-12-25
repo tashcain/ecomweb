@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import  './about04.css';
-import img01 from '../../../images/Founder Chairman.JPG';
+import img01 from '../../../images/ownerplc.jpg';
 
 export default class About04 extends Component {
     render() {
@@ -17,8 +17,8 @@ export default class About04 extends Component {
                    
                 <img src={img01}  alt="owner"/>
                 <div className="oinfo">
-                <span className="nameo">Mrs. Leela</span><br/>
-                    <span className="flag">Owner, LM Assam Tea</span>
+                <span className="nameo"></span><br/>
+                    <span className="flag"></span>
                 </div>
                
                  </div>
