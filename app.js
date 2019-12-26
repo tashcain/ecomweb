@@ -25,7 +25,7 @@ app.use(bodyParser.json())
 
 app.post('/send', (req, res) => {
     const output = `
-    <p>You have a new request</p>
+    <p>You have a new customer</p>
     <h3>Buyer Details</h3>
     <ul>  
       <li>Name: ${req.body.name}</li>
@@ -54,8 +54,8 @@ app.post('/send', (req, res) => {
 
   // setup email data with unicode symbols
   let mailOptions = {
-      from: '"shubham" <shubham0baswal8@gmail.com>', // sender address
-      to: 'shubhambaswal10@gmail.com', // list of receivers
+      from: '"lmassamtea website" <shubham0baswal8@gmail.com>', // sender address
+      to: 'lmassamtea@gmail.com', // list of receivers
       subject: 'New order', // Subject line
       text: 'Hi, owner/Lmassamtea', // plain text body
       html: output // html body
