@@ -44,7 +44,7 @@ export default class Buypro extends Component {
 }
 
 saveData(){
-    axios.post('https://assamtea.herokuapp.com/send',{
+    axios.post('http://www.lmassamtea.com/send',{
        name:this.state.name,
        email: this.state.email,
        phn: this.state.phn,
@@ -73,7 +73,6 @@ saveData(){
 
     componentDidMount(){
         let id = this.props.match.params.id;
-        console.log(id);
         if(id === '01'){
             this.setState({
                 tea: "Tulsi Green Tea",
