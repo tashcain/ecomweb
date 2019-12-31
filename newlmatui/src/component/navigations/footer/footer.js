@@ -29,7 +29,8 @@ export default class Footer extends Component {
             </div>
         </div>
         </div>
-        <div className="pinkfry">LM Assam Tea © 2019 Created by Pinkfry</div>            
+        <Link to="https://pinkfry.tech/services.html"></Link>
+        <a target="_blank" rel="noopener noreferrer" href="https://pinkfry.tech/services.html"><div className="pinkfry">LM Assam Tea © 2019 Created by Pinkfry</div></a>
 
             </div>
         )
