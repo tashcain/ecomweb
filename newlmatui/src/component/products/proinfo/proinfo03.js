@@ -42,7 +42,7 @@ export default class Proinfo03 extends Component {
                 <br />
                 <br />
                 <h5>
-                  Price: <strike>₹ 180/-</strike> ₹ 150/-
+                  Price: <strike>₹ 180/-</strike> ₹ 150/- (500gm)
                 </h5>
                 <Link to="buyprod/03">
                   <Button type="primary" onClick={this.clickHandler}>
