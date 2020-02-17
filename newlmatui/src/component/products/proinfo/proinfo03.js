@@ -31,10 +31,9 @@ export default class Proinfo03 extends Component {
                 <p style={{ paddingTop: "28px", paddingLeft: "80px" }}>
                   CTC BLACK TEA: LM ASSAM TEA has CTC black tea of Assam
                   selected gardens. ASSAM tea has lot of antioxidants, so it
-                  helps reduce stress and helps fill it relax. CTC black tea
-                  make with milk and sugar It has special flavor and test you
-                  enjoy the day with every cup of tea and refresh in every sip
-                  Its Create Happy Things.
+                  helps reduce stress CTC black tea make with milk and sugar It
+                  has special flavor and test you enjoy the day with every cup
+                  of tea and refresh in every sip Its Create Happy Things.
                 </p>
               </div>
               <div class="col-sm badi">
